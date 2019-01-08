@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE7C3E21BC8D48E0090740C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7C3E11BC8D48E0090740C /* main.m */; };
+		BAE7C3E51BC8D48E0090740C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7C3E41BC8D48E0090740C /* AppDelegate.m */; };
+		BAE7C3E81BC8D48E0090740C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7C3E71BC8D48E0090740C /* ViewController.m */; };
+		BAE7C3EB1BC8D48E0090740C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7C3E91BC8D48E0090740C /* Main.storyboard */; };
+		BAE7C3ED1BC8D48E0090740C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7C3EC1BC8D48E0090740C /* Assets.xcassets */; };
+		BAE7C3F01BC8D48E0090740C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7C3EE1BC8D48E0090740C /* LaunchScreen.storyboard */; };
+		BAE7C3FB1BC8D48E0090740C /* BankIDSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7C3FA1BC8D48E0090740C /* BankIDSearchTests.m */; };
+		BAE7C4071BC8D7DD0090740C /* bank.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE7C4061BC8D7DD0090740C /* bank.txt */; };
+		BAE7C40A1BC8D8B40090740C /* CardDataConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7C4091BC8D8B40090740C /* CardDataConvertTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE7C3F71BC8D48E0090740C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE7C3D51BC8D48E0090740C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE7C3DC1BC8D48E0090740C;
+			remoteInfo = BankIDSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE7C3DD1BC8D48E0090740C /* BankIDSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankIDSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE7C3E11BC8D48E0090740C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE7C3E31BC8D48E0090740C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE7C3E41BC8D48E0090740C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAE7C3E61BC8D48E0090740C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAE7C3E71BC8D48E0090740C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAE7C3EA1BC8D48E0090740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE7C3EC1BC8D48E0090740C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE7C3EF1BC8D48E0090740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE7C3F11BC8D48E0090740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE7C3F61BC8D48E0090740C /* BankIDSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankIDSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE7C3FA1BC8D48E0090740C /* BankIDSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankIDSearchTests.m; sourceTree = "<group>"; };
+		BAE7C3FC1BC8D48E0090740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE7C4061BC8D7DD0090740C /* bank.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = bank.txt; sourceTree = "<group>"; };
+		BAE7C4081BC8D8B40090740C /* CardDataConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDataConvertTool.h; sourceTree = "<group>"; };
+		BAE7C4091BC8D8B40090740C /* CardDataConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDataConvertTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE7C3DA1BC8D48E0090740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7C3F31BC8D48E0090740C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE7C3D41BC8D48E0090740C = {
+			isa = PBXGroup;
+			children = (
+				BAE7C3DF1BC8D48E0090740C /* BankIDSearch */,
+				BAE7C3F91BC8D48E0090740C /* BankIDSearchTests */,
+				BAE7C3DE1BC8D48E0090740C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE7C3DE1BC8D48E0090740C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7C3DD1BC8D48E0090740C /* BankIDSearch.app */,
+				BAE7C3F61BC8D48E0090740C /* BankIDSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE7C3DF1BC8D48E0090740C /* BankIDSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7C4081BC8D8B40090740C /* CardDataConvertTool.h */,
+				BAE7C4091BC8D8B40090740C /* CardDataConvertTool.m */,
+				BAE7C4051BC8D7D00090740C /* Data */,
+				BAE7C3E31BC8D48E0090740C /* AppDelegate.h */,
+				BAE7C3E41BC8D48E0090740C /* AppDelegate.m */,
+				BAE7C3E61BC8D48E0090740C /* ViewController.h */,
+				BAE7C3E71BC8D48E0090740C /* ViewController.m */,
+				BAE7C3E91BC8D48E0090740C /* Main.storyboard */,
+				BAE7C3EC1BC8D48E0090740C /* Assets.xcassets */,
+				BAE7C3EE1BC8D48E0090740C /* LaunchScreen.storyboard */,
+				BAE7C3F11BC8D48E0090740C /* Info.plist */,
+				BAE7C3E01BC8D48E0090740C /* Supporting Files */,
+			);
+			path = BankIDSearch;
+			sourceTree = "<group>";
+		};
+		BAE7C3E01BC8D48E0090740C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7C3E11BC8D48E0090740C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE7C3F91BC8D48E0090740C /* BankIDSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7C3FA1BC8D48E0090740C /* BankIDSearchTests.m */,
+				BAE7C3FC1BC8D48E0090740C /* Info.plist */,
+			);
+			path = BankIDSearchTests;
+			sourceTree = "<group>";
+		};
+		BAE7C4051BC8D7D00090740C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7C4061BC8D7DD0090740C /* bank.txt */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE7C3DC1BC8D48E0090740C /* BankIDSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE7C3FF1BC8D48E0090740C /* Build configuration list for PBXNativeTarget "BankIDSearch" */;
+			buildPhases = (
+				BAE7C3D91BC8D48E0090740C /* Sources */,
+				BAE7C3DA1BC8D48E0090740C /* Frameworks */,
+				BAE7C3DB1BC8D48E0090740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankIDSearch;
+			productName = BankIDSearch;
+			productReference = BAE7C3DD1BC8D48E0090740C /* BankIDSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE7C3F51BC8D48E0090740C /* BankIDSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE7C4021BC8D48E0090740C /* Build configuration list for PBXNativeTarget "BankIDSearchTests" */;
+			buildPhases = (
+				BAE7C3F21BC8D48E0090740C /* Sources */,
+				BAE7C3F31BC8D48E0090740C /* Frameworks */,
+				BAE7C3F41BC8D48E0090740C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE7C3F81BC8D48E0090740C /* PBXTargetDependency */,
+			);
+			name = BankIDSearchTests;
+			productName = BankIDSearchTests;
+			productReference = BAE7C3F61BC8D48E0090740C /* BankIDSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE7C3D51BC8D48E0090740C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "东电创新（北京）科技发展股份有限公司";
+				TargetAttributes = {
+					BAE7C3DC1BC8D48E0090740C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7D992WX2BB;
+					};
+					BAE7C3F51BC8D48E0090740C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BAE7C3DC1BC8D48E0090740C;
+					};
+				};
+			};
+			buildConfigurationList = BAE7C3D81BC8D48E0090740C /* Build configuration list for PBXProject "BankIDSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE7C3D41BC8D48E0090740C;
+			productRefGroup = BAE7C3DE1BC8D48E0090740C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE7C3DC1BC8D48E0090740C /* BankIDSearch */,
+				BAE7C3F51BC8D48E0090740C /* BankIDSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE7C3DB1BC8D48E0090740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7C3F01BC8D48E0090740C /* LaunchScreen.storyboard in Resources */,
+				BAE7C3ED1BC8D48E0090740C /* Assets.xcassets in Resources */,
+				BAE7C4071BC8D7DD0090740C /* bank.txt in Resources */,
+				BAE7C3EB1BC8D48E0090740C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7C3F41BC8D48E0090740C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE7C3D91BC8D48E0090740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7C3E81BC8D48E0090740C /* ViewController.m in Sources */,
+				BAE7C40A1BC8D8B40090740C /* CardDataConvertTool.m in Sources */,
+				BAE7C3E51BC8D48E0090740C /* AppDelegate.m in Sources */,
+				BAE7C3E21BC8D48E0090740C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7C3F21BC8D48E0090740C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7C3FB1BC8D48E0090740C /* BankIDSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE7C3F81BC8D48E0090740C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE7C3DC1BC8D48E0090740C /* BankIDSearch */;
+			targetProxy = BAE7C3F71BC8D48E0090740C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE7C3E91BC8D48E0090740C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE7C3EA1BC8D48E0090740C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE7C3EE1BC8D48E0090740C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE7C3EF1BC8D48E0090740C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE7C3FD1BC8D48E0090740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAE7C3FE1BC8D48E0090740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE7C4001BC8D48E0090740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D992WX2BB;
+				INFOPLIST_FILE = BankIDSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongsys.BankIDSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAE7C4011BC8D48E0090740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D992WX2BB;
+				INFOPLIST_FILE = BankIDSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongsys.BankIDSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAE7C4031BC8D48E0090740C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BankIDSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongsys.BankIDSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankIDSearch.app/BankIDSearch";
+			};
+			name = Debug;
+		};
+		BAE7C4041BC8D48E0090740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BankIDSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongsys.BankIDSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankIDSearch.app/BankIDSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE7C3D81BC8D48E0090740C /* Build configuration list for PBXProject "BankIDSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7C3FD1BC8D48E0090740C /* Debug */,
+				BAE7C3FE1BC8D48E0090740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE7C3FF1BC8D48E0090740C /* Build configuration list for PBXNativeTarget "BankIDSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7C4001BC8D48E0090740C /* Debug */,
+				BAE7C4011BC8D48E0090740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE7C4021BC8D48E0090740C /* Build configuration list for PBXNativeTarget "BankIDSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7C4031BC8D48E0090740C /* Debug */,
+				BAE7C4041BC8D48E0090740C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE7C3D51BC8D48E0090740C /* Project object */;
+}

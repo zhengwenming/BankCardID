@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4bw-IL-gtq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ExQ-xn-40m">
+            <objects>
+                <navigationController id="4bw-IL-gtq" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y52-ZP-p5a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vFl-Le-nex" kind="relationship" relationship="rootViewController" id="cZG-vy-Izz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hj9-ac-Y0U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1157" y="205"/>
+        </scene>
+        <!--银行卡种查询-->
+        <scene sceneID="TCb-4S-RQA">
+            <objects>
+                <viewController id="vFl-Le-nex" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CTX-NI-nw5"/>
+                        <viewControllerLayoutGuide type="bottom" id="mnz-1X-5Zh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5vs-2X-GQR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卡号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKq-cC-9Bz">
+                                <rect key="frame" x="20" y="101" width="66" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4Xn-0v-6W3"/>
+                                    <constraint firstAttribute="width" constant="66" id="QLq-3o-xLH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.87058823529999996" green="0.4039215686" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-z6-RFx">
+                                <rect key="frame" x="76" y="94" width="224" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Ux-oM-lIZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2hA-qD-3OV">
+                                <rect key="frame" x="14" y="132" width="286" height="130"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="8nt-ID-Czj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2hA-qD-3OV" firstAttribute="top" secondItem="o5d-z6-RFx" secondAttribute="bottom" constant="8" id="0oh-NV-XPE"/>
+                            <constraint firstItem="aKq-cC-9Bz" firstAttribute="top" secondItem="CTX-NI-nw5" secondAttribute="bottom" constant="37" id="3i4-EO-5xD"/>
+                            <constraint firstItem="aKq-cC-9Bz" firstAttribute="leading" secondItem="5vs-2X-GQR" secondAttribute="leading" constant="20" id="4gP-8G-oIR"/>
+                            <constraint firstItem="o5d-z6-RFx" firstAttribute="leading" secondItem="5vs-2X-GQR" secondAttribute="leading" constant="76" id="Ivc-LI-brt"/>
+                            <constraint firstAttribute="trailing" secondItem="o5d-z6-RFx" secondAttribute="trailing" constant="20" id="LTr-0p-dYH"/>
+                            <constraint firstItem="2hA-qD-3OV" firstAttribute="leading" secondItem="5vs-2X-GQR" secondAttribute="leading" constant="20" id="dYl-hd-iqZ"/>
+                            <constraint firstAttribute="trailing" secondItem="2hA-qD-3OV" secondAttribute="trailing" constant="20" id="dcn-tq-J3J"/>
+                            <constraint firstItem="o5d-z6-RFx" firstAttribute="top" secondItem="CTX-NI-nw5" secondAttribute="bottom" constant="30" id="t2e-dq-HEl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="银行卡种查询" id="Nzi-SM-tR0"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="cardDescTextView" destination="2hA-qD-3OV" id="TX9-35-Sfg"/>
+                        <outlet property="cardTextField" destination="o5d-z6-RFx" id="cF9-kG-hTg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7z4-uj-frs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-745" y="205"/>
+        </scene>
+    </scenes>
+</document>
